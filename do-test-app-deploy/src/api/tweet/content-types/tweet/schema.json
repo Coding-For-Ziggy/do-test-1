@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tweets",
+  "info": {
+    "singularName": "tweet",
+    "pluralName": "tweets",
+    "displayName": "Tweets",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "likes": {
+      "type": "integer",
+      "default": 0
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
